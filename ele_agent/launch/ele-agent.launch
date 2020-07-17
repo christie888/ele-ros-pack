@@ -1,0 +1,7 @@
+<launch>
+	<include file="$(find ele-side)/launch/ele.launch"/>
+	<!--<include file="$(find ar_pose)/launch/ar_pose_single.launch" /> -->
+	<node pkg="ele_agent" name="Agent_Process" type="process.py" output="screen"/>
+	<!--<node pkg="ele-agent" name="Local_camera" type="camera.py" output="screen"/>!-->
+</launch>	
+

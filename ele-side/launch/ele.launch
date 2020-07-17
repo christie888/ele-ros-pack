@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="ele-side" name="Elevator_monitor" type="ele_monitor.py" output="screen"/>
+	<node pkg="ele-side" name="Elevator_control" type="ele_control.py" output="screen"/>
+</launch>	
+
